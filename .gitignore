@@ -2,6 +2,7 @@
 .vscode
 
 # Compiled binaries
+bin/
 *.bin
 *.o
 
