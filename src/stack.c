@@ -3,15 +3,6 @@
 #include "stack.h"
 
 /**
- * @brief Stack's structure.
- */
-typedef struct stack_t {
-  int max;
-  int top;
-  char *items;
-} stack_t;
-
-/**
  * @brief Create a stack.
  */
 stack_t

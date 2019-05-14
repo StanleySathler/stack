@@ -7,7 +7,7 @@
   typedef struct stack_t {
     int max;
     int top;
-    char items[15];
+    char *items;
   } stack_t;
 
   /**

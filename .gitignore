@@ -3,3 +3,7 @@
 
 # Compiled binaries
 *.bin
+*.o
+
+# Dependencies
+lib/
