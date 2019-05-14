@@ -17,6 +17,12 @@
   stack_create(int max);
 
   /**
+   * @brief Destroy the stack.
+   */
+  void
+  stack_destroy(stack_t* stack);
+
+  /**
    * @brief Get top item from stack.
    */
   char

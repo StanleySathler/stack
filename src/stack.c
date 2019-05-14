@@ -8,7 +8,7 @@
 typedef struct stack_t {
   int max;
   int top;
-  char items[15];
+  char *items;
 } stack_t;
 
 /**
@@ -20,8 +20,18 @@ stack_create(int max)
   stack_t stack;
   stack.max = max;
   stack.top = -1;
+  stack.items = malloc(sizeof(char) * max);
 
   return stack;
+}
+
+/**
+ * @brief Destroy the stack.
+ */
+void
+stack_destroy(stack_t* stack)
+{
+  free(stack->items);
 }
 
 /**
