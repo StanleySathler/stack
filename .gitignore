@@ -7,4 +7,4 @@ bin/
 *.o
 
 # Dependencies
-lib/
+libs/

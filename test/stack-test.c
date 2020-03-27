@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../lib/assert.h"
+#include "../libs/assert.h"
 #include "../src/stack.h"
 
 void
