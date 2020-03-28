@@ -44,7 +44,7 @@ stack_top(stack_t* stack)
  * @brief Push a new item into the stack.
  */
 void
-stack_push(stack_t* stack, char item)
+stack_push(stack_t* stack, stack_item item)
 {
   if (stack_is_full(stack))
   {

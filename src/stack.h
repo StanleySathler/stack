@@ -1,13 +1,15 @@
 #ifndef __STACK_H__
 #define __STACK_H__
 
+  typedef int stack_item;
+
   /**
    * @brief Stack's structure.
    */
   typedef struct stack_t {
     int max;
     int top;
-    char *items;
+    stack_item *items;
   } stack_t;
 
   /**
@@ -32,7 +34,7 @@
    * @brief Push a new item into the stack.
    */
   void
-  stack_push(stack_t* stack, char item);
+  stack_push(stack_t* stack, stack_item item);
 
   /**
    * @brief Pop the last item from the stack.
